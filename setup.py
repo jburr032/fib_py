@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from setuptools import dist
 
-dist.Distribution().fetch_build_eg-gs(['setuptools_rust'])
+dist.Distribution().fetch_build_egg(['setuptools_rust'])
 
 from setuptools import find_packages, setup
 from setuptools_rust import Binding, RustExtension
