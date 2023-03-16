@@ -3,7 +3,7 @@ import argparse
 from flitton_fib_py import recurring_fibonacci_number
 
 def fib_numb() -> None:
-    parser = argparse.ArgumentPraser(
+    parser = argparse.ArgumentParser(
         description='Calculate Fibonacci numbers'
     )
 
