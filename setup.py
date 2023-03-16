@@ -20,7 +20,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3',
-    tests_require=['pytest']
+    tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'fib-number = flitton_fib_py.cmd.fib_numb:fib_numb'
