@@ -1,16 +1,16 @@
 #!/usr/bin/env python
 from setuptools import dist
 
-dist.Distribution().fetch_build_egg(['setuptools_rust'])
+dist.Distribution().fetch_build_eggs(['setuptools_rust'])
 
-from setuptools import find_packages, setup
+from setuptools import setup
 from setuptools_rust import Binding, RustExtension
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="flitton_fib_py",
+    name="flitton-fib-rs",
     version="0.1",
     rust_extensions=[RustExtension(
         ".flitton_fib_rs.flitton_fib_rs",
